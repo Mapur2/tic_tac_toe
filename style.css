@@ -1,0 +1,56 @@
+ body{
+    background-image: linear-gradient(rgb(214, 214, 233),aqua);
+} 
+.row1{
+    display: flex;
+}
+.bt{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+button span{
+    visibility: hidden;
+}
+.close {
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    border-radius: 5px;
+    position: relative;
+    &:after {
+      
+      content: "X";
+      font-size: 50px;
+      color: #000000;
+    }
+}
+.open
+{
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    border-radius: 5px;
+    position: relative;
+    &:after {
+      
+      content: "O";
+      font-size: 50px;
+      color: #000000;
+    }
+}
+
+.contain{
+    height: 1500px;
+    max-width: 300px;
+    margin: auto;
+}
+.line{
+    background-color: red;
+    color:#ffffff;
+}
