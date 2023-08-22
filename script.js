@@ -53,17 +53,17 @@ b9.addEventListener("click",function (params) {
 
 function shape(b,ii)
 {
-    if(idx==0 && b.classList.contains("open")==false)
+    if(idx==0 && b.innerText!="O")
     {
         value(ii)
         idx=1
-        b.classList.add("close")
+        b.innerHTML="<h1>X</h1>"
     }
-    else if(idx==1 && b.classList.contains("close")==false)
+    else if(idx==1 && b.innerText!="X")
     {
         value(ii)
         idx=0
-        b.classList.add("open")
+        b.innerHTML="<h1>O</h1>"
     }
      /*    for (let i = 0; i< 3; i++) {
             console.log(a[i][0],a[i][1],a[i][2])
