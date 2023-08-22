@@ -15,36 +15,6 @@ h1{
 button span{
     visibility: hidden;
 }
-.close {
-    overflow: hidden;
-    height: 100px;
-    width: 100px;
-    background: #ffffff;
-    border-radius: 5px;
-    position: relative;
-    &:after {
-      
-      content: "X";
-      font-size: 50px;
-      color: #000000;
-    }
-}
-.open
-{
-    overflow: hidden;
-    height: 100px;
-    width: 100px;
-    background: #ffffff;
-    border-radius: 5px;
-    position: relative;
-    &:after {
-      
-      content: "O";
-      font-size: 50px;
-      color: #000000;
-    }
-}
-
 .contain{
     height: 1500px;
     max-width: 300px;
